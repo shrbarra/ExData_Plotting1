@@ -12,7 +12,7 @@ unzip("hpc.zip",exdir=".")
 
 #Reading the file within the range of 01/02/07~02/02/07
 hpc <- read.csv2.sql(file="./household_power_consumption.txt",sql= "select * from file where Date in ('1/2/2007','2/2/2007')"
-                     , na.strings = "?",colClasses = c())
+                     , na.strings = "?")
 
 #Pasting hpc$Date and hpc$Time
 hpc <- mutate(hpc, DateTime = with(hpc, paste(Date, Time)))
