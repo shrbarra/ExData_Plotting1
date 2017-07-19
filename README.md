@@ -1,6 +1,6 @@
 ## Introduction
 
-# Files have been submitted by shrbarra, as a part of an assignment
+### Files have been submitted by shrbarra, as a part of an assignment
 from Exploratory Data Analysis course from Coursera and Johns Hopkins
 University.
 
